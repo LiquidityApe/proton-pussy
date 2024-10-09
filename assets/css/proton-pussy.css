@@ -888,6 +888,31 @@ Banner Style
 .main-banner .second-button {
   display: inline-block;
 }
+.fa.fa-twitter{
+	font-family:sans-serif;
+}
+.fa.fa-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite; /* For Safari */
+}
+
+@keyframes blink-animation {
+  to {
+      visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation { /* For Safari */
+  to {
+      visibility: hidden;
+  }
+}
+
 
 /* 
 ---------------------------------------------
