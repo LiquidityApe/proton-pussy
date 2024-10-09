@@ -820,7 +820,7 @@ Banner Style
 }
 
 .main-banner:after {
-  content: url(../images/banner-right.jpg);
+  content: url(../images/video-thumb.jpg);
   top: -1px;
   right: 0;
   position: absolute;
